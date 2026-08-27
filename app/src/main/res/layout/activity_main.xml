@@ -8,12 +8,27 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/number"
+        android:textAlignment="center"
+        android:textSize="250sp"
+        />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/btn_toast"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_count"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="416dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
