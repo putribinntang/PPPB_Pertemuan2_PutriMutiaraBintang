@@ -10,6 +10,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : PUTRI MUTIARA BINTANG \n NIM : 25/564258/SV/26804 "
+        />
+
+    <TextView
         android:id="@+id/tvNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
